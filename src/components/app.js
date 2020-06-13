@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
+import Logo from './logo';
 
 export default class App extends Component {
-
-  // CHANGES
   render() {
     return (
-      <div className='app'>
+      <div>
         <div>
-          Logo
+          logo
+          <Logo/>
         </div>
       </div>
-    );
+    )};
   }
-}
