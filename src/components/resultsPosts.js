@@ -6,7 +6,7 @@ class ResultsPosts extends Component {
     render() {
         return (
             <div className="results-posts">
-                <div className="resu;ts-posts__wrapper">
+                <div className="results-posts__wrapper">
                     <ul className="results-posts__posts">
                         Results go here
                     </ul>
